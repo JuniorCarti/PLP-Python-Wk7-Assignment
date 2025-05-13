@@ -1,9 +1,5 @@
 # PLP-Python-Wk7-Assignment
 
-Here’s a professional and well-structured README for your **Wine Quality Analysis Script**. The content is organized with bullet points and sections for easy reading and comprehension.
-
----
-
 # 📊 Wine Quality Analysis Script
 
 ## 📑 **Project Overview**
@@ -86,20 +82,53 @@ The script generates the following plots for deeper insight:
 
 ## 📝 **Usage Instructions**
 
-1. Ensure you have the required CSV files in your working directory.
-2. Install necessary libraries:
+1. **Clone the Repository:**
 
+   First, clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/JuniorCarti/PLP-Python-Wk7-Assignment.git
    ```
+
+2. **Navigate to the Project Directory:**
+
+   Change into the project directory:
+
+   ```bash
+   cd PLP-Python-Wk7-Assignment
+   ```
+
+3. **Ensure Required Files Are Present:**
+
+   Make sure the required CSV files are in the `data/` folder:
+
+   * `winequality-red.csv`
+   * `winequality-white.csv`
+   * `winequality.names`
+
+4. **Install Necessary Libraries:**
+
+   Install the required Python libraries by running:
+
+   ```bash
    pip install pandas matplotlib
    ```
-3. Run the script:
 
-   ```
+5. **Run the Script:**
+
+   Execute the Python script to start the wine quality analysis:
+
+   ```bash
    python wine_quality_analysis.py
    ```
-4. View the output in the console and visualizations saved as `wine_analysis.png`.
+
+6. **View the Results:**
+
+   * The console will output data exploration and statistical analysis results.
+   * Visualizations will be saved as `wine_output_analysis.png` in the `output/` folder.
 
 ---
+
 
 ## ✅ **Expected Output**
 
@@ -112,10 +141,6 @@ The script generates the following plots for deeper insight:
 
 * The script handles file loading errors gracefully, prompting you to place the CSV files in the correct location if not found.
 * Adjustments can be made to visualization parameters directly within the script.
-
----
-
-Here’s the updated **Project Files** section including the output file as well:
 
 ---
 
@@ -132,9 +157,6 @@ Here’s the updated **Project Files** section including the output file as well
   * `wine_output_analysis.png` — Generated plot from data analysis
 
 ---
-
----
-
 ## 📝 **License**
 
 This project is open-source and available under the MIT License.
