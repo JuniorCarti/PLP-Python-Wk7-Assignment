@@ -115,12 +115,23 @@ The script generates the following plots for deeper insight:
 
 ---
 
+Here’s the updated **Project Files** section including the output file as well:
+
+---
+
 ## 📂 **Project Files**
 
-* `wine_quality_analysis.py` (Python script)
-* `winequality-red.csv` (Red wine data)
-* `winequality-white.csv` (White wine data)
-* `wine_analysis.png` (Generated plot)
+* `wine_quality_analysis.py` — Python script for data loading, analysis, and visualization
+* `data/` — Directory containing wine quality datasets:
+
+  * `winequality-red.csv` — Red wine data
+  * `winequality-white.csv` — White wine data
+  * `winequality.names` — Metadata for wine quality datasets
+* `output/` — Directory containing generated outputs:
+
+  * `wine_output_analysis.png` — Generated plot from data analysis
+
+---
 
 ---
 
